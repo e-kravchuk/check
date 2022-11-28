@@ -25,7 +25,7 @@ class Blog
     // Homepage
     public function index()
     {
-        $this->oUtil->oPosts = $this->oModel->get(0, self::MAX_POSTS); // Get only the latest X posts
+        $this->oUtil->oArticle = $this->oModel->get(0, self::MAX_POSTS); // Get only the latest X posts
 
         $this->oUtil->getView('index');
     }
