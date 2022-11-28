@@ -1,3 +1,10 @@
 <?php
+require 'vendor/autoload.php';
 
-echo '111';
+require 'connection.php';
+require 'header.php';
+?>
+<div>Test page</div>
+<?php
+require 'footer.php';
+?>
